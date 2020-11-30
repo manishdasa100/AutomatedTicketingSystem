@@ -2,6 +2,8 @@ package automatedTicketingSystem.handlers;
 
 public interface RequestHandler {
 
+    // This is a contract for classes that can handle following incomming requests.
+
     final String CREATE_NEW_PARKING_LOT = "Create_parking_lot";
     final String PARK_CAR = "Park";
     final String GET_SLOT_NUMBERS_FOR_DRIVER_AGE = "Slot_numbers_for_driver_of_age";
