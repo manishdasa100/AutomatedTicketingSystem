@@ -19,6 +19,6 @@ This is a gradle based Java application.
 2. Extract the compressed file and navigate inside the folder.
 3. You will see a gradlew file inside the folder.
 4. To run the application type the command ```./gradlew run --args="full/path/to/your/input/file"```
-5. Give sudo priviledge if asked for. 
+5. Give execution permission if asked for. 
 6. The ```gradlew``` is a wrapper script will download gradle 6.6.1 in case you do not have it.
 
